@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+    float: left;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+ 
+.logo img {
+    width: 75%;
+}
+
+.menu {
+    width: 80%;
+    padding-top: 15px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+.menu ul li a:hover {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form {
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 3px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+form{
+    color: #1a73e8;
+    font-size: x-large;
+}
+
+.box {
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.submit {
+    padding: 16px;
+    border-radius: 30px;
+    color: #1a73e8;
+    width: 160px;
+    border: none;
+    margin-top: 20px;
+    font-size: large;
+}
+
+input{
+    margin: 10px 0 10px 0;
+}
+
+footer {
+    padding-top: 10%;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    background-color: grey;
+}

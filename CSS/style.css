@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+    float: left;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.menu{
+    width: 80%;
+    padding-top: 15px;
+    float: left;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+.menu ul li a:hover {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.main-blog-section{
+    width: 100%;
+    float: left;
+}
+
+.blog-section {
+    width: 72%;
+    float: left;
+    padding-right: 3%;
+}
+
+.blog-list {
+    width: 25%;
+    float: left;
+}
+
+.blog-list ul {
+    list-style: none;
+}
+
+.blog-list ul li {
+    padding-top: 15px;
+}
+
+.blog-list-topic li a:hover {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.blog-list-topic a {
+    text-decoration: none;
+    color: white;
+}
+
+.single-blog {
+    margin: 20px 0;
+}
+
+.single-blog p {
+    text-align: justify;
+    text-indent: 25%;
+    color: white;
+}
+
+.main-heading{
+    font-size: 35px;
+}
+
+.author-section {
+    width: 100%;
+    float: left;
+}
+
+.author-section img {
+    border-radius: 50%;
+    float: left;
+    width: 85px;
+}
+
+.author-detail {
+    float: left;
+    padding: 17px 0 0 15px;
+}
+
+.author-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.author-designation{
+    color: rgb(120, 120, 120);
+}
+
+footer {
+    background-color: grey;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
